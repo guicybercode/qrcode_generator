@@ -4,6 +4,27 @@
 
 This project implements a bilingual web-based QR code generation system utilizing Python's Flask framework. The application features a retro computing aesthetic with Windows 95/98 visual elements, providing an intuitive interface for generating Quick Response (QR) codes from textual input. The system supports automatic language detection and manual language switching between English and Portuguese, with a responsive design optimized for various screen sizes.
 
+## Screenshots
+
+### Repository QR Code
+Scan this QR code to access the repository on GitHub:
+
+![Repository QR Code](screenshots/repo-qrcode.png)
+
+**Repository URL**: https://github.com/guicybercode/qrcode_generator
+
+### Main Interface (English)
+![Main Interface - English](screenshots/main-en.png)
+
+### Main Interface (Portuguese)
+![Main Interface - Portuguese](screenshots/main-pt.png)
+
+### Generated QR Code
+![QR Code Display](screenshots/qr-display.png)
+
+### Mobile View
+![Mobile Responsive View](screenshots/mobile-view.png)
+
 ## Architecture
 
 ### System Overview
@@ -171,27 +192,6 @@ The user interface implements a Windows 95/98 retro computing aesthetic:
 ### Layout Design
 
 The application implements a centered container layout with fixed vertical borders on the left and right sides of the viewport, creating a framed presentation reminiscent of terminal windows and classic desktop environments.
-
-## Screenshots
-
-### Repository QR Code
-Scan this QR code to access the repository on GitHub:
-
-![Repository QR Code](screenshots/repo-qrcode.png)
-
-**Repository URL**: https://github.com/guicybercode/qrcode_generator
-
-### Main Interface (English)
-![Main Interface - English](screenshots/main-en.png)
-
-### Main Interface (Portuguese)
-![Main Interface - Portuguese](screenshots/main-pt.png)
-
-### Generated QR Code
-![QR Code Display](screenshots/qr-display.png)
-
-### Mobile View
-![Mobile Responsive View](screenshots/mobile-view.png)
 
 ## Future Enhancements
 
