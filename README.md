@@ -29,6 +29,7 @@ gerador_qrcode/
 │   │   └── style.css     # Retro Windows 90s styling
 │   └── js/
 │       └── main.js       # Client-side logic (language detection, QR display)
+├── screenshots/          # Application screenshots
 ├── requirements.txt      # Python package dependencies
 └── README.md            # This documentation
 ```
@@ -170,6 +171,27 @@ The user interface implements a Windows 95/98 retro computing aesthetic:
 ### Layout Design
 
 The application implements a centered container layout with fixed vertical borders on the left and right sides of the viewport, creating a framed presentation reminiscent of terminal windows and classic desktop environments.
+
+## Screenshots
+
+### Repository QR Code
+Scan this QR code to access the repository on GitHub:
+
+![Repository QR Code](screenshots/repo-qrcode.png)
+
+**Repository URL**: https://github.com/guicybercode/qrcode_generator
+
+### Main Interface (English)
+![Main Interface - English](screenshots/main-en.png)
+
+### Main Interface (Portuguese)
+![Main Interface - Portuguese](screenshots/main-pt.png)
+
+### Generated QR Code
+![QR Code Display](screenshots/qr-display.png)
+
+### Mobile View
+![Mobile Responsive View](screenshots/mobile-view.png)
 
 ## Future Enhancements
 
