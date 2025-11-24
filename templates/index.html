@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-en="QR Code Generator" data-pt="Gerador de QR Code">QR Code Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="side-border left"></div>
+    <div class="container">
+        <div class="window-frame">
+            <div class="title-bar">
+                <span class="title-text" data-en="QR Code Generator" data-pt="Gerador de QR Code">QR Code Generator</span>
+                <button class="lang-toggle" id="langToggle">PT</button>
+            </div>
+            <div class="window-content">
+                <div class="terminal-section">
+                    <div class="terminal-header">
+                        <span class="terminal-title" data-en="Input Data" data-pt="Dados de Entrada">Input Data</span>
+                    </div>
+                    <div class="input-group">
+                        <textarea 
+                            id="dataInput" 
+                            class="terminal-input" 
+                            placeholder="Enter text or data to encode..."
+                            data-placeholder-en="Enter text or data to encode..."
+                            data-placeholder-pt="Digite texto ou dados para codificar..."
+                        ></textarea>
+                    </div>
+                </div>
+                
+                <div class="button-group">
+                    <button class="win-button" id="generateBtn">
+                        <span data-en="Generate QR Code" data-pt="Gerar QR Code">Generate QR Code</span>
+                    </button>
+                </div>
+                
+                <div id="errorMessage" class="error-message" style="display: none;"></div>
+                
+                <div id="qrResult" class="qr-result" style="display: none;">
+                    <div class="terminal-section">
+                        <div class="terminal-header">
+                            <span class="terminal-title" data-en="Generated QR Code" data-pt="QR Code Gerado">Generated QR Code</span>
+                        </div>
+                        <div class="qr-display">
+                            <img id="qrImage" src="" alt="QR Code">
+                        </div>
+                        <div class="button-group">
+                            <button class="win-button" id="downloadBtn">
+                                <span data-en="Download PNG" data-pt="Baixar PNG">Download PNG</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="side-border right"></div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
+
